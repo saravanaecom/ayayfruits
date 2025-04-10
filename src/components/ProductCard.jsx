@@ -581,13 +581,13 @@ const ProductCard = ({ get_fav_lists, product, isLoading, offerProducts, related
                   fontWeight: 600,
                   border: '1px solid',
                   borderColor: theme.palette.basecolorCode.main,
-                  backgroundColor: '#00523b',
+                  backgroundColor: '#8a00c5',
                   color: '#fff',
                   '&:hover': {
                     background: 'none',
                     border: '1px solid',
                     borderColor: theme.palette.basecolorCode.main,
-                    color: "white",
+                    color: "#c11c84",
                   }
                 }}
                 id={product.Id}
