@@ -46,7 +46,7 @@ export const ThemeSettings = (themeLists = {}) => {
         main: themeLists.whitecolorCode || '#FFF',
       },
       footertextcolorCode: {
-        main: '#FFF'
+        main: '#000000'
       }
     },
   });
