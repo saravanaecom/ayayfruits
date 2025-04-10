@@ -74,11 +74,11 @@ const ExploreCategories = () => {
           color: "rgb(26, 32, 44)",
           fontSize: "44px",
           lineHeight: "48px",
-          mb: 6, // Add more space below the heading
-          textTransform: "uppercase", // Make the text uppercase
+          mb: 6,
+          textTransform: "uppercase", 
           letterSpacing: "2px",
           
-            mb: 10, // Add margin bottom for spacing
+            mb: 10, 
         }}
       >
         Explore Our Categories
@@ -134,7 +134,7 @@ const ExploreCategories = () => {
                     sx={{
                       fontWeight: "bold",
                       color: "white",
-                      backgroundColor: "#00523b",
+                      backgroundColor: "#8a00c5",
                       mt: 0, // Remove margin to eliminate space
                       py: 1,
                       borderBottomLeftRadius: "10px", // Add border radius to the bottom-left corner
