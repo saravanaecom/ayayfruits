@@ -18,6 +18,8 @@ import { useTheme } from '@mui/material/styles';
 import { useNavigate } from "react-router-dom";
 import { ServerURL } from '../../server/serverUrl';
 import TopCategory from '../category/TopCategory';
+import TopOfferShow from '../TopOfferShow';
+import TopOfferSlider from '../TopofferSlider';
 
 const drawerContent = (
   <List>
@@ -128,17 +130,18 @@ export default function AppHeader() {
 
   return (
     <>
+    <TopOfferSlider  />
       <AppBar
-        position='fixed'
+        position='sticky'
         color="transparent"
         elevation={isScrolled ? 5 : 10}
 
         sx={{
-          
-          top:'50px',
+       
+          transition: 'top 0.1s ease',
           borderBottom: isScrolled ? 'none' : '1px solid #FFF',
           backgroundColor: isScrolled ? '#FFFF' : '#FFFF',
-          marginBottom: '100px',
+          
           transition: 'all 1.5s ease',
           zindex: 9999,
           mt: { xs: 0, sm: 0,mt: 50 },
@@ -166,6 +169,9 @@ export default function AppHeader() {
               </IconButton>
             </Grid>
             
+
+          
+
 
             <Grid
               item
