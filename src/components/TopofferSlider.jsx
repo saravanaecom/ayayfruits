@@ -19,7 +19,7 @@ const TopOfferSlider = () => {
   ];
 
   return (
-    <Box className="w-full h-14 overflow-hidden bg-[#42085b] py-2 fixed  z-[9999]">
+    <Box className="w-full h-14 overflow-hidden bg-[#42085b] py-2 reletive  z-[9999]">
       <Box
         className="flex whitespace-nowrap"
         sx={{
