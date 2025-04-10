@@ -134,13 +134,19 @@ export default function AppHeader() {
         elevation={isScrolled ? 5 : 10}
 
         sx={{
+          
+          top:'50px',
           borderBottom: isScrolled ? 'none' : '1px solid #FFF',
           backgroundColor: isScrolled ? '#FFFF' : '#FFFF',
+          marginBottom: '100px',
           transition: 'all 1.5s ease',
           zindex: 9999,
-          top: 0,
+          mt: { xs: 0, sm: 0,mt: 50 },
           height:{xs:'130px'},
-          height: '100px',
+          height: '60px',
+          pb:'70px',
+          pt: '10px',
+        
           '@media (max-width: 600px)': {
             position: 'relative',
             width: '100%',
@@ -180,9 +186,6 @@ export default function AppHeader() {
         <TopCategory isMobile={false}  closeDrawer={closeDrawer} />
         
             </Grid>
-
-
-
 <Grid
               item
               xs={12} sm={6} md={5.5}

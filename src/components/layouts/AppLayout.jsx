@@ -77,8 +77,8 @@ const AppLayout = (props) => {
 
   return (
     <>
-      <TopOffershow/>
-      <AppHeader style={{ zIndex: 10 }} />
+      <TopOffershow  />
+      <AppHeader style={{ zIndex: 10,  }} />
     
 
       {children}
