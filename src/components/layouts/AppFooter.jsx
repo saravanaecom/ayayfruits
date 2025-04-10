@@ -14,7 +14,7 @@ const AppFooter = ({ CompanyDetails }) => {
     const theme = useTheme();
     return (
         <>
-            <Box sx={{ background: "#222", padding: '50px 20px' }}>
+            <Box sx={{ background: "#dddcde", padding: '50px 20px' }}>
                 <Container maxWidth="xl" sx={{ px: { xs: 0, md: 3 } }}>
                     <Grid container justifyContent="space-between" alignItems="flex-start">
                         {/* Left section */}
